@@ -1,0 +1,235 @@
+[
+  {
+    "id": "dear-diary",
+    "title": "Dear Diary",
+    "label": "Full-Stack Web App",
+    "summary": "A journaling app that reads the mood behind your words with an LLM.",
+    "status": "Completed · working end-to-end",
+    "stack": [
+      "Node.js",
+      "PostgreSQL",
+      "CockroachDB",
+      "JWT",
+      "bcrypt",
+      "Gemini API",
+      "React"
+    ],
+    "sections": [
+      {
+        "label": "Problem",
+        "body": "Most journaling apps capture words but never the emotional arc behind them. I wanted a journal that quietly surfaces how you've actually been feeling over time — without making you tag or rate anything."
+      },
+      {
+        "label": "Approach",
+        "body": "A Node.js REST API with JWT auth backs a React front-end. Every entry is sent to the Gemini API for emotion classification, and the detected emotion is rendered as an emoji on a calendar — turning a pile of text into a visual mood timeline."
+      },
+      {
+        "label": "Architecture",
+        "body": "Entries persist in PostgreSQL on CockroachDB. Passwords are one-way hashed with bcrypt before storage — proper hashing, not reversible encryption — so credentials are unreadable even at the database level. On write, Gemini classifies the entry and the result drives the calendar UI."
+      },
+      {
+        "label": "Challenges",
+        "body": "Getting the auth and password-security model right (and being precise about hashing vs. encryption), designing a schema that pairs each entry with an emotion, and structuring the LLM call so classifications stay consistent."
+      },
+      {
+        "label": "What's next",
+        "body": "Richer mood analytics and trend lines, plus an option for on-device or self-hosted classification so entries can stay fully private."
+      }
+    ],
+    "links": [
+      {
+        "label": "Code",
+        "href": "GITHUB"
+      }
+    ]
+  },
+  {
+    "id": "deepfake-detection",
+    "title": "Deepfake Detection",
+    "label": "ML · Full-Stack",
+    "summary": "A fine-tuned ResNet18 that flags AI-generated images with a confidence score.",
+    "status": "Completed · working end-to-end",
+    "stack": [
+      "Python",
+      "PyTorch",
+      "ResNet18",
+      "FastAPI",
+      "React"
+    ],
+    "sections": [
+      {
+        "label": "Problem",
+        "body": "AI-generated imagery is getting hard to spot by eye. I wanted a tool that returns a defensible confidence score and risk classification — not just a binary yes/no."
+      },
+      {
+        "label": "Approach",
+        "body": "I fine-tuned a ResNet18 on a labelled dataset of real and AI-generated images, then served it through a FastAPI inference endpoint with a React front-end for upload and results."
+      },
+      {
+        "label": "Architecture",
+        "body": "The full training pipeline lives in PyTorch — data loading, augmentation, the training loop, and evaluation. The trained model sits behind a FastAPI endpoint that accepts an upload and returns a confidence score plus a risk classification (likely real / likely fake)."
+      },
+      {
+        "label": "Challenges",
+        "body": "Deciding to fine-tune rather than train from scratch (and why ResNet18), shaping an API response that carries both confidence and classification, and keeping upload-to-inference latency reasonable."
+      },
+      {
+        "label": "What's next",
+        "body": "A larger, more diverse training set, calibration of the confidence scores, and saliency maps to explain why a given image was flagged."
+      }
+    ],
+    "links": [
+      {
+        "label": "Code",
+        "href": "GITHUB"
+      }
+    ]
+  },
+  {
+    "id": "blinking-worlds",
+    "title": "Blinking Worlds",
+    "label": "Game Dev · Computer Vision",
+    "summary": "A 2D platformer you control by blinking — 1st place at HackBattle.",
+    "status": "1st place · HackBattle · playable build",
+    "stack": [
+      "Godot",
+      "Python",
+      "OpenCV",
+      "MediaPipe"
+    ],
+    "sections": [
+      {
+        "label": "What it is",
+        "body": "A 2D platformer controlled entirely by real-time eye tracking and hand gestures — no keyboard or controller."
+      },
+      {
+        "label": "The mechanic",
+        "body": "Blinking (detected via MediaPipe facial landmarks) instantly switches you between two parallel worlds, teleporting you to the same spot in the alternate world. Hand tracking drives movement and actions."
+      },
+      {
+        "label": "Level design",
+        "body": "Levels intentionally require both worlds — some obstacles can only be cleared by deliberately blinking across at exactly the right moment, turning a technical constraint into the core puzzle."
+      },
+      {
+        "label": "Outcome",
+        "body": "Built and demoed a fully playable version within the hackathon window, and won 1st place at HackBattle — VIT's largest hackathon — against 200+ participants."
+      }
+    ],
+    "links": [
+      {
+        "label": "Code",
+        "href": "GITHUB"
+      }
+    ]
+  },
+  {
+    "id": "v2v-alert",
+    "title": "V2V Drowsy Driver Alert",
+    "label": "Embedded · Computer Vision",
+    "summary": "Detects drowsiness and escalates alerts car-to-car via CSMA/CD.",
+    "status": "Prototype · built & demonstrated",
+    "stack": [
+      "Python",
+      "OpenCV",
+      "MediaPipe",
+      "CSMA/CD",
+      "GPS",
+      "Telegram Bot API"
+    ],
+    "sections": [
+      {
+        "label": "What it is",
+        "body": "A vehicle-to-vehicle safety system that detects driver drowsiness and triggers an escalating alert chain reaching nearby cars and emergency services."
+      },
+      {
+        "label": "Detection",
+        "body": "A dashcam feed is processed in real time with OpenCV and MediaPipe to track facial landmarks and detect prolonged eye closure."
+      },
+      {
+        "label": "Escalation",
+        "body": "A 3-stage chain: 0s local buzzer; 4s broadcast to nearby vehicles over a 2.4GHz channel (their buzzers fire); 10s GPS-tagged distress signal to authorities via a Telegram bot."
+      },
+      {
+        "label": "Networking",
+        "body": "The inter-vehicle broadcast uses the CSMA/CD protocol to handle collisions and interference when multiple cars transmit on the same channel simultaneously."
+      }
+    ],
+    "links": [
+      {
+        "label": "Code",
+        "href": "GITHUB"
+      }
+    ]
+  },
+  {
+    "id": "smart-tender",
+    "title": "Smart Tender System",
+    "label": "Web3 · Blockchain",
+    "summary": "On-chain government tenders with sealed bids and escrow (prototype).",
+    "status": "Prototype · partially implemented",
+    "stack": [
+      "Solidity",
+      "Ethereum",
+      "MetaMask",
+      "Pinata / IPFS",
+      "React"
+    ],
+    "sections": [
+      {
+        "label": "What it is",
+        "body": "A blockchain-based government tender system designed to replace an opaque process with transparent, tamper-proof smart contracts."
+      },
+      {
+        "label": "Planned flow",
+        "body": "Vendors log in with MetaMask and are approved on-chain; the government posts tenders; sealed bids stay hidden until the deadline; the winner is chosen by a weighted average of competence score and bid; documents are hashed via IPFS; milestone payments release from escrow."
+      },
+      {
+        "label": "Built so far",
+        "body": "Smart contracts, vendor MetaMask login, and Pinata document hashing. Bidding, weighted scoring, milestone tracking, and escrow were designed but not fully implemented."
+      },
+      {
+        "label": "Honest framing",
+        "body": "This is a prototype — I'm explicit about what's actually built versus what was designed on paper."
+      }
+    ],
+    "links": [
+      {
+        "label": "Code",
+        "href": "GITHUB"
+      }
+    ]
+  },
+  {
+    "id": "speech-therapy",
+    "title": "Speech Therapy Backend",
+    "label": "AI · Mobile Backend",
+    "summary": "Hindi speech → STT → Gemini-generated personalised therapy exercises.",
+    "status": "Backend working · frontend incomplete",
+    "stack": [
+      "Node.js",
+      "Google Speech-to-Text",
+      "Gemini API",
+      "React Native"
+    ],
+    "sections": [
+      {
+        "label": "What it is",
+        "body": "The backend for a Hindi-language speech therapy app that evaluates a user's speech and dynamically generates personalised therapy exercises."
+      },
+      {
+        "label": "The pipeline",
+        "body": "A React Native app captures Hindi voice input; Google STT transcribes it with a confidence score; that score and transcription feed the Gemini API, which generates the next personalised exercise. The full voice → STT → scoring → Gemini → exercise pipeline is built and tested."
+      },
+      {
+        "label": "Status",
+        "body": "Frontend UI and a data-persistence layer (storing user progress) remain — framed honestly as ongoing work."
+      }
+    ],
+    "links": [
+      {
+        "label": "Code",
+        "href": "GITHUB"
+      }
+    ]
+  }
+]

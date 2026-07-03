@@ -1,0 +1,27 @@
+[
+  {
+    "role": "Research Intern",
+    "org": "Samsung PRISM",
+    "period": "July 2025 – May 2026",
+    "status": "Completed",
+    "summary": "Built a hybrid Apache Spark engine that unifies Kafka streaming and batch under one long-lived context — a 6-month R&D cycle in Java/Scala, mentored by a Samsung Senior Chief Engineer.",
+    "tags": [
+      "Apache Spark",
+      "Kafka",
+      "Java",
+      "Scala"
+    ]
+  },
+  {
+    "role": "Founder & Technical Lead",
+    "org": "LayOver",
+    "period": "Dec 2024 – Jan 2026",
+    "status": "Founding · leadership",
+    "summary": "Founded and led a 14-person team and won VIT's first AICTE software grant. Designed the roadmap for a 30+ POS-integration platform; shipped the marketing site (full platform scoped, not built).",
+    "tags": [
+      "Team Leadership",
+      "AICTE Grant",
+      "Technical Roadmap"
+    ]
+  }
+]
