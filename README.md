@@ -10,7 +10,7 @@
 
 <!-- ░░░ TYPING TERMINAL ░░░ -->
 <a href="https://lakshaytuteja.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=900&color=7AA2F7&center=true&vCenter=true&width=680&height=45&lines=visitor%40github%3A~%24+whoami;Research+Intern+%40+Samsung+PRISM;ML+%26+Full-Stack+Builder;Founder+%26+Technical+Lead+%40+LayOver;1st+Place+%40+HackBattle+%E2%80%94+200%2B+devs;Third-year+CS+%40+VIT+%E2%80%A2+building+the+improbable" alt="typing-svg" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=900&color=7AA2F7&center=true&vCenter=true&width=680&height=45&lines=visitor%40github%3A~%24+whoami;Research+Intern+%40+Samsung+PRISM;ML+%26+Full-Stack+Builder;Exploring+Agentic+AI+%E2%80%A2+scalable+real-world+systems;Founder+%26+Technical+Lead+%40+LayOver;1st+Place+%40+HackBattle+%E2%80%94+200%2B+devs;Third-year+CS+%40+VIT+%E2%80%A2+building+the+improbable" alt="typing-svg" />
 </a>
 
 <!-- ░░░ STATUS LINE ░░░ -->
@@ -18,6 +18,7 @@
   <img src="https://komarev.com/ghpvc/?username=lucy-04&style=flat-square&color=7aa2f7&label=VISITORS" alt="views"/>
   <img src="https://img.shields.io/badge/focus-distributed_systems-bb9af7?style=flat-square&labelColor=1a1b27" alt="focus"/>
   <img src="https://img.shields.io/badge/status-open_to_collaborate-9ece6a?style=flat-square&labelColor=1a1b27" alt="status"/>
+  <img src="https://img.shields.io/badge/learning-Agentic_AI-7dcfff?style=flat-square&labelColor=1a1b27" alt="learning"/>
 </p>
 
 </div>
@@ -37,7 +38,9 @@
           |   $ sudo build     |   /           Shell    : Spark // Kafka // FastAPI // React
           |   > the improbable |  /            WM       : founder@LayOver (14-person team)
           |                    | /             Packages : 6 shipped projects · 1 hackathon win
-          +--------------------+/              Memory   : curiosity inf / distractions 0
+          +--------------------+/              Learning : Agentic AI (hands-on)
+                                               Goal     : build scalable, real-world agentic systems
+                                               Memory   : curiosity inf / distractions 0
                                                ─────────────────────────────────────────
    "From hybrid Spark/Kafka pipelines at Samsung to leading a 14-person team
     that won VIT's first AICTE software grant — I build scalable systems
