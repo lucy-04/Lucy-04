@@ -134,11 +134,11 @@
 | Project | What it does | Stack | Status |
 |:--------|:-------------|:------|:-------|
 | **🏆 Blinking Worlds** | A 2D platformer you control by **blinking** — swap parallel worlds via real-time eye tracking. **1st place @ HackBattle (200+ devs).** | `Godot` `OpenCV` `MediaPipe` | 🥇 Winner |
-| **Dear Diary** | Journaling app that reads the **mood behind your words** with an LLM and paints a calendar of emotions. | `Node.js` `Postgres` `Gemini` `React` | ✅ Shipped |
+| **[Dear Diary](https://github.com/lucy-04/DearDiary)** | Journaling app that reads the **mood behind your words** with an LLM and paints a calendar of emotions. | `Node.js` `Postgres` `Gemini` `React` | ✅ Shipped |
 | **Deepfake Detection** | Fine-tuned **ResNet18** that flags AI-generated images with a confidence + risk score. | `PyTorch` `FastAPI` `React` | ✅ Shipped |
-| **V2V Drowsy Alert** | Detects driver drowsiness & escalates **car-to-car** over CSMA/CD → buzzer → GPS distress. | `OpenCV` `MediaPipe` `CSMA/CD` | 🔧 Prototype |
-| **Smart Tender** | On-chain government tenders with **sealed bids & escrow** on Ethereum. | `Solidity` `IPFS` `React` | 🔧 Prototype |
-| **Speech Therapy** | Hindi speech → STT → **Gemini-generated** personalised therapy exercises. | `Node.js` `Google STT` `Gemini` | ⚙️ Backend live |
+| **[V2V Drowsy Alert](https://github.com/lucy-04/V2V-Communication)** | Detects driver drowsiness & escalates **car-to-car** over CSMA/CD → buzzer → GPS distress. | `OpenCV` `MediaPipe` `CSMA/CD` | 🔧 Prototype |
+| **[Smart Tender](https://github.com/lucy-04/Web3-Smart-Tender-System)** | On-chain government tenders with **sealed bids & escrow** on Ethereum. | `Solidity` `IPFS` `React` | 🔧 Prototype |
+| **[Speech Therapy](https://github.com/lucy-04/Speech-Therapy-App)** | Hindi speech → STT → **Gemini-generated** personalised therapy exercises. | `Node.js` `Google STT` `Gemini` | ⚙️ Backend live |
 
 </div>
 
