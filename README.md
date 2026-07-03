@@ -10,7 +10,7 @@
 
 <!-- ░░░ TYPING TERMINAL ░░░ -->
 <a href="https://lakshaytuteja.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=900&color=7AA2F7&center=true&vCenter=true&width=680&height=45&lines=visitor%40github%3A~%24+whoami;Distributed+Systems+Engineer+%40+Samsung+PRISM;ML+%26+Full-Stack+Builder;Founder+%26+Technical+Lead+%40+LayOver;1st+Place+%40+HackBattle+%E2%80%94+200%2B+devs;Third-year+CS+%40+VIT+%E2%80%A2+building+the+improbable" alt="typing-svg" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=900&color=7AA2F7&center=true&vCenter=true&width=680&height=45&lines=visitor%40github%3A~%24+whoami;Research+Intern+%40+Samsung+PRISM;ML+%26+Full-Stack+Builder;Founder+%26+Technical+Lead+%40+LayOver;1st+Place+%40+HackBattle+%E2%80%94+200%2B+devs;Third-year+CS+%40+VIT+%E2%80%A2+building+the+improbable" alt="typing-svg" />
 </a>
 
 <!-- ░░░ STATUS LINE ░░░ -->
@@ -18,7 +18,6 @@
   <img src="https://komarev.com/ghpvc/?username=lucy-04&style=flat-square&color=7aa2f7&label=VISITORS" alt="views"/>
   <img src="https://img.shields.io/badge/focus-distributed_systems-bb9af7?style=flat-square&labelColor=1a1b27" alt="focus"/>
   <img src="https://img.shields.io/badge/status-open_to_collaborate-9ece6a?style=flat-square&labelColor=1a1b27" alt="status"/>
-  <img src="https://img.shields.io/badge/CGPA-8.53%2F10-7dcfff?style=flat-square&labelColor=1a1b27" alt="cgpa"/>
 </p>
 
 </div>
@@ -97,10 +96,10 @@
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=lucy-04&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&bg_color=1a1b27&title_color=7aa2f7&icon_color=bb9af7&text_color=c0caf5" alt="stats"/>
+<img height="165" src="https://github-stats-extended.vercel.app/api?username=lucy-04&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&bg_color=1a1b27&title_color=7aa2f7&icon_color=bb9af7&text_color=c0caf5" alt="stats"/>
 <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=lucy-04&theme=tokyonight&hide_border=true&background=1A1B27&stroke=7aa2f7&ring=bb9af7&fire=7dcfff&currStreakLabel=7aa2f7" alt="streak"/>
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucy-04&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=7aa2f7&text_color=c0caf5&langs_count=8" alt="top-langs"/>
+<img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=lucy-04&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=7aa2f7&text_color=c0caf5&langs_count=8" alt="top-langs"/>
 
 <br/>
 
