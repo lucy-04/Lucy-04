@@ -132,6 +132,9 @@
 | Project | What it does | Stack | Status |
 |:--------|:-------------|:------|:-------|
 | **🏆 Blinking Worlds** | A 2D platformer you control by **blinking** — swap parallel worlds via real-time eye tracking. **1st place @ HackBattle (200+ devs).** | `Godot` `OpenCV` `MediaPipe` | 🥇 Winner |
+| **[Expenses](https://github.com/lucy-04/Expense-Tracker)** | **Fully offline** Android expense manager — unlocks bank-statement PDFs, validates every row against the totals, and auto-categorises spend. No server, no cloud. | `React Native` `Expo` `TypeScript` `SQLite` | ✅ Shipped |
+| **[Crosscheck](https://github.com/lucy-04/Crosscheck-SuperJoin-)** | Turns PDFs into **scoped, source-checked facts** and explains rule by rule where they agree, contradict, or only *look* like they contradict. | `Next.js` `TypeScript` `SQLite` `LLM` | ✅ Shipped |
+| **[Redwood Ontology](https://github.com/lucy-04/enterprise-ontology)** | Knowledge graph over **~512K docs** from 9 enterprise apps — merges duplicate people, tracks conflicting facts, and cites sources for every answer. Built for Hack Hydra. | `Python` `HydraDB` `Splink` `SQLite FTS5` | ⚙️ Hackathon build |
 | **[Dear Diary](https://github.com/lucy-04/DearDiary)** | Journaling app that reads the **mood behind your words** with an LLM and paints a calendar of emotions. | `Node.js` `Postgres` `Gemini` `React` | ✅ Shipped |
 | **[Deepfake Detection](https://github.com/lucy-04/deepfake-detection)** | Fine-tuned **ResNet18** that flags AI-generated images with a confidence + risk score. | `PyTorch` `FastAPI` `React` | ✅ Shipped |
 | **[V2V Drowsy Alert](https://github.com/lucy-04/V2V-Communication)** | Detects driver drowsiness & escalates **car-to-car** over CSMA/CD → buzzer → GPS distress. | `OpenCV` `MediaPipe` `CSMA/CD` | 🔧 Prototype |
