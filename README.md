@@ -10,14 +10,14 @@
 
 <!-- ░░░ TYPING TERMINAL ░░░ -->
 <a href="https://lakshaytuteja.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=900&color=7AA2F7&center=true&vCenter=true&width=680&height=45&lines=visitor%40github%3A~%24+whoami;Research+Intern+%40+Samsung+PRISM;ML+%26+Full-Stack+Builder;Exploring+Agentic+AI+%E2%80%A2+scalable+real-world+systems;Founder+%26+Technical+Lead+%40+LayOver;1st+Place+%40+HackBattle+%E2%80%94+200%2B+devs;Third-year+CS+%40+VIT+%E2%80%A2+building+the+improbable" alt="typing-svg" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=900&color=7AA2F7&center=true&vCenter=true&width=680&height=45&lines=visitor%40github%3A~%24+whoami;ex-Research+Intern+%40+Samsung+PRISM;ML+%26+Full-Stack+Builder;Exploring+Agentic+AI+%E2%80%A2+scalable+real-world+systems;ex-Founder+%26+Tech+Lead+%40+LayOver;1st+Place+%40+HackBattle+%E2%80%94+200%2B+devs;Final-year+CS+%40+VIT+%E2%80%A2+open+to+SDE+%2F+ML+roles" alt="typing-svg" />
 </a>
 
 <!-- ░░░ STATUS LINE ░░░ -->
 <p>
   <img src="https://komarev.com/ghpvc/?username=lucy-04&style=flat-square&color=7aa2f7&label=VISITORS" alt="views"/>
   <img src="https://img.shields.io/badge/focus-distributed_systems-bb9af7?style=flat-square&labelColor=1a1b27" alt="focus"/>
-  <img src="https://img.shields.io/badge/status-open_to_collaborate-9ece6a?style=flat-square&labelColor=1a1b27" alt="status"/>
+  <img src="https://img.shields.io/badge/status-open_to_SDE_%2F_ML_roles-9ece6a?style=flat-square&labelColor=1a1b27" alt="status"/>
   <img src="https://img.shields.io/badge/learning-Agentic_AI-7dcfff?style=flat-square&labelColor=1a1b27" alt="learning"/>
 </p>
 
@@ -31,13 +31,13 @@
               +--------------------+          lakshay@github
              /|   ___  ___   ___  /|          ─────────────────────────────────────────
             / |  |   ||   | |   | / |          OS       : LakshayOS · Arch of Distributed Systems
-           /  |  |___||___| |___|/  |          Host     : VIT Vellore · B.Tech CSE '27
+           /  |  |___||___| |___|/  |          Host     : VIT Vellore · B.Tech CSE '27 (final year)
           +--------------------+    |          Uptime   : 3+ yrs shipping end-to-end
-          |   > _              |    |          Role     : Research Intern @ Samsung PRISM
+          |   > _              |    |          Role     : Final-year CS · open to SDE / ML roles
           |                    |    +          Kernel   : Java · Scala · Python · TypeScript
           |   $ sudo build     |   /           Shell    : Spark // Kafka // FastAPI // React
-          |   > the improbable |  /            WM       : founder@LayOver (14-person team)
-          |                    | /             Packages : 6 shipped projects · 1 hackathon win
+          |   > the improbable |  /            Prev     : Samsung PRISM · LayOver (founder, 14-person team)
+          |                    | /             Packages : 9 projects · 1 hackathon win
           +--------------------+/              Learning : Agentic AI (hands-on)
                                                Goal     : build scalable, real-world agentic systems
                                                Memory   : curiosity inf / distractions 0
@@ -76,6 +76,8 @@
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![HydraDB](https://img.shields.io/badge/HydraDB-5C4EE5?style=flat-square)
 
 **❯ AI / ML**
 
@@ -84,14 +86,24 @@
 ![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=flat-square&logo=google&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Gemini_API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
 ![Google STT](https://img.shields.io/badge/Google_STT-4285F4?style=flat-square&logo=google&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square)
+![Splink](https://img.shields.io/badge/Splink-2E7D32?style=flat-square)
 
 **❯ Frontend**
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+
+**❯ Also shipped with**
+
+![Godot](https://img.shields.io/badge/Godot-478CBF?style=flat-square&logo=godotengine&logoColor=white)
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
+![IPFS](https://img.shields.io/badge/IPFS-65C2CB?style=flat-square&logo=ipfs&logoColor=white)
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
@@ -111,7 +123,7 @@
 ## `~/experience`
 
 ```log
-[ 2025.09 -> 2026.02 ]  SAMSUNG PRISM · Research Intern
+[ 2025.07 -> 2026.05 ]  SAMSUNG PRISM · Research Intern
    |__ Built a hybrid Apache Spark engine unifying Kafka streaming + batch
        under a single long-lived Spark context — replacing the one-job-per-run
        model. 6-month R&D cycle in Java/Scala, mentored by a Samsung Senior
